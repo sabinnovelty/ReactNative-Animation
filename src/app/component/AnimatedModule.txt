@@ -1,0 +1,20 @@
+import { Animated } from 'react-native';
+
+//Three things to consider in animation
+----------------Animated Module-------------------
+1. Animated.Values  =  It defines the current position of an element.
+2.Animated.Types  = It defines what type of animation to be appliied . 
+    3 types of animation types 
+        a.Spring,
+        b.Delay
+        c.Timing
+3.Animated.Component  = It defines the component to be animated . i.e View ,Text or Image..
+
+-------------------------------------------------------------------------------------
+
+1.Where is the current position of an item right now ? 
+    use Animated.ValueXY
+2.where is the item moving ? 
+    use Animated.Spring.
+3.Which element are we moving ?
+    use Animated.View
